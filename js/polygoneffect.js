@@ -193,7 +193,7 @@ function getDisOf(b1, b2){
 
 // add balls if there a little balls
 function addBallIfy(){
-    if(balls.length < 20){
+    if(balls.length < 200){
         balls.push(getRandomBall());
     }
 }
