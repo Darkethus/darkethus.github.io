@@ -170,7 +170,7 @@ function renderLines(){
            if(fraction < 1){
                alpha = (1 - fraction).toString();
 
-               ctx.strokeStyle = 'rgba(150,150,150,'+alpha+')';
+               ctx.strokeStyle = 'rgba(0,153,153,'+alpha+')';
                ctx.lineWidth = link_line_width;
                
                ctx.beginPath();
