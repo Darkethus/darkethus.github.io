@@ -15,9 +15,9 @@ var ball = {
       phase: 0
    },
    ball_color = {
-       r: 0,
-       g: 0,
-       b: 255
+       r: 204,
+       g: 255,
+       b: 204
    },
    R = 2,
    balls = [],
