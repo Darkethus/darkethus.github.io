@@ -36,11 +36,6 @@ html, body, .page {
   left: 200%;
 }
 
-#p1 { background: darkslateblue; }
-#p2 { background: tomato; }
-#p3 { background: gold; }
-#p4 { background: deeppink; }
-#p5 { background: rebeccapurple; }
 
 #t2:target #p2,
 #t3:target #p3,
@@ -53,19 +48,6 @@ html, body, .page {
   transition-delay: .4s !important;
 }
 
-#t2:target #p1, 
-#t3:target #p1,
-#t4:target #p1,
-#t5:target #p1{
-  background: black;
-}
-
-#t2:target #p1 .icon, 
-#t3:target #p1 .icon,
-#t4:target #p1 .icon,
-#t5:target #p1 .icon {
-  -webkit-filter: blur(3px);
-}
 
 .icon {
   color: #fff;
@@ -125,9 +107,11 @@ ul {
 
 a {
   text-decoration: none;
+    
 }
-
-
+.title, .hint {
+  display: block;
+}
 
 .title {
   font-size: 38px;
