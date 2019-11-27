@@ -9,7 +9,7 @@ html, body{
     padding: 0;
     background-color: #333;
     overflow: hidden;
-    z-index: 100;
+    z-index: 1;
 }
 canvas{
     background-color: #041821;
