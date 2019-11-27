@@ -127,9 +127,7 @@ a {
   text-decoration: none;
 }
 
-.title, .hint {
-  display: block;
-}
+
 
 .title {
   font-size: 38px;
